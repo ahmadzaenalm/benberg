@@ -21,6 +21,7 @@ get_header(); ?>
 <!-- Blog breadcrumbs -->
 <?php if ( isset( $corpboot_opt['show_blog_breadcrumb'] ) && $corpboot_opt['show_blog_breadcrumb'] ) : ?>
     <div class="breadcrumb-container">
+        <div class="tambah-padding">`</div>
         <div class="container text-right">
             <ol class="breadcrumb">
                 <?php echo corpboot_breadcrumbs(); ?>
