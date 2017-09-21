@@ -43,10 +43,10 @@ $favicon_icon = ( ! empty( $corpboot_opt['favicon_icon'] ) ) ? $corpboot_opt['fa
         <div class="container">  
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                    <ul style="display: inline-block;">
+                    
                         <li style="display: inline-block;"><i class="fa fa-phone"></i> +1234 5676 8765</li>
                         <li style="display: inline-block;"> <i class="fa fa-envelope"></i> admin@benberg.com</li>
-                    </ul>
+                    
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                     <ul class="header-top" style="float: right;">
