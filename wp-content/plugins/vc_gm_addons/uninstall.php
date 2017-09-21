@@ -1,0 +1,4 @@
+<?php
+/**
+ * Uninstall plugin
+ */

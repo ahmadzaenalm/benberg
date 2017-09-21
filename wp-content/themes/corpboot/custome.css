@@ -1,0 +1,135 @@
+/*=====Custome====*/
+ .navbar-default .navbar-nav > li > a{
+ 	font-weight: 300;
+ }
+.wpb_wrapper .wpb_content_element h1{
+    color: #333333;
+    margin-bottom: 18px;
+    font-weight: 300;
+ }
+
+.navbar-fixed-top {
+    top: 3.1em;
+    border-width: 0 0 1px;
+}
+.admin-bar .navbar-fixed-top {
+    top: 3.2em;
+    border-width: 0 0 1px;
+}
+.navbar2{
+
+	background: #002252;
+	margin-top: 0px;
+	position: fixed;
+	width: 100%;
+	height: auto;
+	z-index: 1040;
+	color: #fff;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	-webkit-transition: all 0.25s ease-out;
+	transition: all 0.25s ease-out;
+}
+.navbar2 li{
+	
+	padding-left: 2em;
+}
+.navbar2 .header-top{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.admin-bar .navbar {
+    margin-top: 31px;
+}
+.servdesc h6{
+	margin-bottom: 0px;
+}
+.ico-services{
+	color: #BBBCBE;
+}
+
+.product-header-content hr { 
+	height: 5px;
+	color: #002150;
+	background-color: #002252;
+	border: none;
+	margin-top: -15px;
+} 
+
+.why-choose{
+	background: #fff;
+	
+	margin-left: 2em;
+	padding: 2em;
+}
+.list-inline.social {
+    
+    float: right;
+}
+/*About*/
+.title-about{
+	color: #000;
+}
+/* product gallery*/
+.vc_gitem-row-position-middle .vc_gitem-col-align- .vc_gitem-post-data-source-post_title h4{
+	color: #fff;
+	font-weight: 300;
+}
+
+/*.vc_gitem_row.vc_gitem-row-position-bottom .vc_gitem-col {
+    padding: 10px;
+    margin-left: -38px;
+    margin-bottom: -25px;
+    font-weight: 200;
+}*/
+.vc_grid-item-mini.vc_clearfix div:hover{
+	background-color: #fff;
+}
+.vc_icon_element.vc_icon_element-outer .vc_icon_element-inner {
+    text-align: center;
+    display: inline-block;
+    border: 2px solid transparent;
+    width: 5em;
+    height: 5em;
+    box-sizing: content-box;
+    position: relative;
+    margin-left: -5.9em;
+	margin-bottom: -1.8em;
+	padding: 10px;
+}
+/*content why*/
+.title-why hr { 
+	height: 5px;
+	color: #002252;
+	background-color: #002150;
+	border: none;
+	margin-left: 0px;
+}
+.wpb_wrapper .wpb_content_element .why-choose hr.hr-title { 
+	margin-bottom: 35px;
+	margin-top: -15px;
+}
+.wpb_wrapper .wpb_content_element .why-choose hr.subtitle-why {
+    margin-bottom: 12px;
+    margin-top: 20px;
+}
+.wpb_wrapper .wpb_content_element h6 {
+    color: #044A67;
+    margin-bottom: 0px;
+}
+.subtitle-why p{
+	margin-bottom: -10px;
+}
+.content-why{
+	color: #929397;
+}
+/*are you ready element*/
+.content-ready .container-fluid .row .col-md-12{
+	color: #fff;
+}
+.content-ready .container-fluid .row .col-md-12 h1{
+	font-weight: 300;
+}
+/*main font sub color*/
+.main-subtext-color{
+	color: #929397
+}
