@@ -137,8 +137,8 @@ body {
 
 hr {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
-  margin-top: 35px;
-  margin-bottom: 35px; }
+  margin-top: 5em;
+  margin-bottom: 5em; }
 
 a {
   color: #303c85;
