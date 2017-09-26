@@ -296,7 +296,7 @@ class WPBakeryShortCode_corpboot_icon_text extends WPBakeryShortCode{
 
                 if( $position == 'left' || $position == 'top' ) :
                     // Icon
-                    $size_item = ( $position == 'top' ) ? 'col-xs-12' : 'col-xs-2';
+                    $size_item = ( $position == 'top' ) ? 'col-xs-12' : 'col-xs-3';
                     if( ! empty( $icon ) ) {
                         $output .= '<div class="' . esc_attr( $size_item ) . ' text-center">';
                             $output .= '<i class="' . esc_attr( $icon ) . ' fa-4x ico-services"></i>';
@@ -304,7 +304,7 @@ class WPBakeryShortCode_corpboot_icon_text extends WPBakeryShortCode{
                     }
                 endif;
 
-                $size_item = ( $position == 'left' || $position == 'right' ) ? 'col-xs-10' : 'col-xs-12';
+                $size_item = ( $position == 'left' || $position == 'right' ) ? 'col-xs-9' : 'col-xs-12';
                 $output .= '<div class="' . esc_attr( $size_item ) . ' servdesc ' . $align . '">';
 
                     // Title
