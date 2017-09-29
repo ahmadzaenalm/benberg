@@ -83,6 +83,7 @@
 .list-inline.social {
     
     float: right;
+	margin-top: 20px;
 }
 @media(max-width: 360px){
 	.list-inline.social {

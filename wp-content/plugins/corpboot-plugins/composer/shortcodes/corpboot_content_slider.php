@@ -164,7 +164,8 @@ class WPBakeryShortCode_corpboot_content_slider extends WPBakeryShortCodesContai
 
                                     // Image Slider
                                     $image = ( ! empty( $value->image ) && is_numeric( $value->image ) ) ? wp_get_attachment_url( $value->image ) : '';
-                                    $output .= '<li class="slide slide-' . $counter . '" style="background-image: url(' . $image . ')"></li>';
+                                    $output .= '<li class="slide slide-' . $counter . '" style="background-image: url(' . $image . ');
+									background-repeat: no-repeat;"></li>';
                                     $counter++;
                                 }
 
@@ -224,7 +225,7 @@ class WPBakeryShortCode_corpboot_content_slider extends WPBakeryShortCodesContai
 
                                     $button = ( ! empty( $link ) ) ? '<a href="' . esc_url( $link['url'] ) . '" ' . $link_target . ' class="btn btn-transparent"><i class="' . esc_attr( $icon ) . '"></i> ' . esc_html( $link['title'] ) . '</a>' : '';
 
-                                    $output .= '<li class="slide slide-' . $counter . '" style="background-image: url(' . $image . ')">';
+                                    $output .= '<li class="slide slide-' . $counter . '" style="background-image: url(' . $image . '); background-repeat: no-repeat;">';
                                         $output .= '<div class="push-text-slide"></div>';
                                         $output .= '<section class="home-promo">';
                                             $output .= '<div class="text-center">';

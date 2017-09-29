@@ -1,8 +1,8 @@
 /*
 Theme Name: Benberg Arome Child
-Theme URI: https://themeforest.net/user/qodearena
+Theme URI: https://webtocratmotion.com
 Author: JasaWeb
-Author URI: http://qodearena.com/
+Author URI: http://webtocratmotion.com
 Version: 1.0.0
 Description: A stunning visual experience for minimal loving creative. This template is a responsive and retina-ready WordPress theme with grid system layout. It is optimized for mobile touch and swipe.
 Tags: one-column, two-columns, right-sidebar, custom-menu, post-formats, sticky-post, translation-ready
@@ -14,3 +14,12 @@ Template: benbergarome
 
 /* = Add your own modification from here
 -------------------------------------------------------------- */
+.wpb_wrapper .wpb_content_element.text-contact-us h1,.wpb_wrapper .wpb_content_element.text-contact-us p {
+    color: #fff;
+}
+.text-contact-us.wpb_text_column :last-child{
+	margin-bottom: 0px !important;
+}
+.home-promo{
+	margin-top: 2em;
+}
